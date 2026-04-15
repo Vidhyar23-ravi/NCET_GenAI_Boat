@@ -29,7 +29,7 @@ if st.button("Generate Content"):
     else:
         st.warning("Please enter both Product and Audience")
 
-# Display generated content and download option
+
 if "text" in st.session_state:
     content = st.text_area("Generated Content", st.session_state.text, height=300)
     
