@@ -5,7 +5,7 @@ from groq import Groq
 st.set_page_config(page_title="prgayanAI Content Generator", layout="wide")
 
 # Title and image
-st.title("vidhya - Content Generator")
+st.title("vidhya ")
 st.image("robot.jpg")
 
 # Get GROQ API Key
